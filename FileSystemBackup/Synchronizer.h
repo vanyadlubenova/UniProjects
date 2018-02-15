@@ -21,7 +21,7 @@ class Synchronizer
     public:
         Synchronizer();
         ~Synchronizer();
-        void sync(const string& activedir, const string& backupdir, int directory_size) const;
+        void sync(const string& activedir, const string& backupdir, int directory_size, int progress) const;
 };
 
 #endif // SYNCHRONIZER_H
